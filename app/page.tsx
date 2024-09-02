@@ -25,7 +25,7 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-center">
-      <h1 className="border px-8 py-4 rounded-xl mb-12">Created By D MAN</h1>
+      <h1 className="border px-8 py-4 rounded-xl mb-12">REMAINING TIME</h1>
       <div className="flex items-center justify-center">
         {/* Uncomment this if you want to display the time */}
         {/* <div className="text-[250px] text-center w-[420px] border rounded-lg px-8">
