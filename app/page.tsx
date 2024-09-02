@@ -27,7 +27,8 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-center">
       <h1 className="border px-8 py-4 rounded-xl mb-12">Created By D MAN</h1>
       <div className="flex items-center justify-center">
-{/*         <div className="text-[250px] text-center w-[420px] border rounded-lg px-8">
+        {/* Uncomment this if you want to display the time */}
+        {/* <div className="text-[250px] text-center w-[420px] border rounded-lg px-8">
           {time.hours}
         </div>
         <div className="text-[250px] px-8">:</div>
@@ -38,9 +39,12 @@ export default function Home() {
         <div className="text-[250px] text-center  w-[420px] border rounded-lg px-8">
           {time.seconds}
         </div> */}
-        <iframe width="522" height="268" src="https://w2.countingdownto.com/5757335" frameborder="0"></iframe>
-
-
+        <iframe
+          width="522"
+          height="268"
+          src="https://w2.countingdownto.com/5757335"
+          style={{ border: "0" }}
+        ></iframe>
       </div>
     </main>
   );
